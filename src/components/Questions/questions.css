@@ -1,0 +1,23 @@
+.questions{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.questions__item{
+    margin-bottom:20px;
+}
+
+.questions__item-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.questions__item-info{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.questions__item-paragraph{
+    font-size: 18px;
+}
