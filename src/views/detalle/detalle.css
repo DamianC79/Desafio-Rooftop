@@ -1,0 +1,12 @@
+.formulario {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario__input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .formulario__btnEnviar {
+    cursor: pointer;
+  }
