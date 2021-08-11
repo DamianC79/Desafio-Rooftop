@@ -1,3 +1,5 @@
+import { memo, useMemo } from 'react';
+
 import _ from 'underscore';
 
 import Product from '../Product/Product'
@@ -5,9 +7,12 @@ import Product from '../Product/Product'
 import './listProducts.css'
 
 const ListProducts = ({products}:any) => {
+
+  const listProducts = useMemo(() => _.shuffle(products), [products]);
+
   return (
     <div className="listProducts">
-      {_.shuffle(products).map((product:any) => <Product key={product.id} product={product}/>)}
+      {listProducts.map((product:any) => <Product key={product.id} product={product}/>)}
     </div>
   )
 }
