@@ -1,0 +1,14 @@
+.product{
+    margin:10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.product__image{
+    width: 100%;
+}
+
+.product__price--offer{
+    color: #06d6a0;
+    font-weight: 600;
+}
